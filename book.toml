@@ -1,0 +1,26 @@
+[book]
+authors = ["Aedius"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "some-title"
+
+[output.html]
+default-theme = "rust"
+
+[output.wordcount]
+ignores = ["Notes"]
+
+[output.html.print]
+enable = false
+
+[output.epub]
+
+[preprocessor.note]
+renderers = ["html", "wordcount", "epub"]
+name = "Notes"
+# cleanup_only = true ## set true to generate clean epub
+
+[preprocessor.footnote]
+
+[preprocessor.yapp]
