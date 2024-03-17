@@ -1,25 +1,15 @@
 [book]
 authors = ["Aedius"]
-language = "fr"
+language = "en"
 multilingual = false
 src = "src"
-title = "some-title"
+title = "Game rules for the Horfimbor project"
 
 [output.html]
 default-theme = "rust"
 
-[output.wordcount]
-ignores = ["Notes"]
-
 [output.html.print]
 enable = false
-
-[output.epub]
-
-[preprocessor.note]
-renderers = ["html", "wordcount", "epub"]
-name = "Notes"
-# cleanup_only = true ## set true to generate clean epub
 
 [preprocessor.footnote]
 

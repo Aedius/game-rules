@@ -1,4 +1,4 @@
-# star-book
+# Game Rules
 
 ## mdBook:
 
